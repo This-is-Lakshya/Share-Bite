@@ -1,0 +1,151 @@
+.Contact{
+    height: 83vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact_box{
+    padding: 0.3rem;
+    background-color: #F0F0F0;
+    height: 85%;
+    width: 65%;
+    border-radius: 1.2rem;
+    display: flex;
+    align-items: center;
+}
+
+.contact_box_img{
+    border-radius: 1rem;
+    height: 100%;
+    width: 55%;
+    margin: 0 0.3rem 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact_box_img img{
+    width: 65%;
+}
+
+.contact_form{
+    background: white;
+    height: 100%;
+    width: 45%;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact_form h2{
+    margin: 1.8rem 0 1.2rem 0;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.input_email, .input_name, .input_mobile{
+    width: 70%;
+    height: 6vh;
+    background-color: #F0F0F0;
+    border: none;
+    outline: none;
+    padding: 0.1rem 1.3rem;
+    margin: 0.6rem;
+    border-radius: 2rem;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.input_message{
+    resize: none;
+    width: 70%;
+    height: 8vh;
+    background-color: #F0F0F0;
+    border: none;
+    outline: none;
+    padding: 1rem 1.3rem;
+    margin: 0.6rem;
+    border-radius: 1.2rem;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.send_msg{
+    border-radius: 2rem;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: white;
+    border: none;
+    outline: none;
+    width: 43.5%;
+    height: 3rem;
+    background: linear-gradient(to right, #FF5F3F, #FDA600);
+    margin: 1.6rem 0;
+}
+
+
+/* --------------- Media Querry ------------- */
+
+@media only screen and (max-width: 1025px) {
+    .contact_form h2{
+        margin: 3.2rem 0 1.1rem 0;
+        font-size: 2.5rem;
+    }
+
+    .input_email, .input_name, .input_mobile{
+        width: 70%;
+        height: 6vh;
+        font-size: 0.9rem;
+        margin: 0.6rem;
+    }
+
+    .send_msg{
+        height: 2.8rem;
+        width: 50%;
+        font-size: 1rem;
+        margin: 1.6rem 0;
+    }
+
+    .contact_box{
+        width: 70%;
+    }
+
+}
+
+@media only screen and (max-width: 769px) {
+    .Contact{
+        height: 90vh;
+    }
+
+    .contact_box{
+        height: 40%;
+        width: 80%;
+    }
+
+    .contact_form h2{
+        margin: 3rem 0 1rem 0;
+        font-size: 2rem;
+    }
+
+    .input_email, .input_name, .input_mobile{
+        width: 65%;
+        height: 3.5vh;
+        font-size: 0.8rem;
+        margin: 0.4rem;
+    }
+
+    .send_msg{
+        height: 2.8rem;
+        width: 50%;
+        font-size: 1rem;
+        margin: 1.6rem 0;
+    }
+}
+
+@media only screen and (max-width: 426px) {
+    
+}

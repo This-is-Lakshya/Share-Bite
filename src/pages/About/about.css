@@ -1,0 +1,74 @@
+.About{
+    width: 100%;
+    background-color: white;
+}
+
+.quick_links_about{
+    background-color: #EBEBEB;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.quick_link_heading{
+    margin: 0 3rem;
+    display: flex;
+    align-items: center;
+}
+
+.underline_quicklinks{
+    background-color: black;
+    height: 3.5rem;
+    width: 4px;
+    margin: 0 2.5rem;
+}
+
+.links_about{
+    margin: 0 3rem;
+    display: flex;
+}
+
+.links_about h4{
+    margin: 0 1.5rem;
+}
+
+
+/* ------------------------------ Media Query --------------------------------- */
+
+@media only screen and (max-width: 1025px) {
+
+}
+
+@media only screen and (max-width: 769px) {
+
+    .quick_links_about{
+        height: 8rem;
+        margin: 0rem 0 1rem 0;
+    }
+
+    .quick_link_heading h2{
+        font-size: 1.2rem;
+    }
+    
+    .underline_quicklinks{
+        height: 3.5rem;
+        width: 3px;
+        margin: 0 2rem;
+    }
+    
+    .links_about{
+        margin: 1rem 1rem 1rem 0rem; 
+    }
+    
+    .links_about h4{
+        font-size: 0.8rem;
+        margin: 0 1.2rem;
+    }
+
+}
+
+@media only screen and (max-width: 426px) {
+
+}

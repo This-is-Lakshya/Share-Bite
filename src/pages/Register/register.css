@@ -1,0 +1,94 @@
+.Register{
+    height: 83vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.register_box{
+    padding: 0.3rem;
+    background-color: #F0F0F0;
+    height: 80%;
+    width: 65%;
+    border-radius: 1.2rem;
+    display: flex;
+    align-items: center;
+}
+
+.box_img{
+    border-radius: 1rem;
+    height: 100%;
+    width: 55%;
+    margin: 0 0.3rem 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box_img img{
+    width: 80%;
+}
+
+.register_form{
+    background: white;
+    height: 100%;
+    width: 45%;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.register_form h2{
+    margin: 3.5rem 0 1.2rem 0;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.register_individual_btn, .register_ngo_btn{
+    font-family: 'Montserrat';
+    border-radius: 2rem;
+    font-weight: 600;
+    font-size: 1.1rem;
+    border: none;
+    outline: none;
+    width: 75%;
+    height: 3rem;
+    margin: 1.8rem 0;
+    cursor: pointer;
+}
+
+.register_individual_btn{
+    background: linear-gradient(to right, #FF5F3F, #FDA600);
+    color: white;
+}
+
+.register_ngo_btn{
+    background-color: #F0F0F0;
+    color: #6E6E6E;
+}
+
+.register_individual_btn:hover{
+    background: linear-gradient(to right, #ef593b, #f09c00);
+}
+.register_ngo_btn:hover{
+    background-color: #ebebeb;
+}
+
+.or_bisection{
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.or_bisection p{
+    color: #6E6E6E;
+}
+
+.line_around_or{
+    background-color: #6E6E6E;
+    height: 0.5px;
+    width: 30%;
+    margin: 0 0.3rem;
+}

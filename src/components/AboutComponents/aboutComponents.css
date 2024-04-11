@@ -1,0 +1,157 @@
+.InfoPageSection, .TeamInfoSection{
+    background-color: white;
+    padding: 4rem;
+}
+
+.InfoPageSection{
+    height: 65vh;
+}
+
+.page_heading{
+    font-size: 2rem;
+    margin-bottom: 0.8rem;
+    color: #171717;
+}
+
+.heading_section{
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.para{
+    margin: 0 5rem;
+    font-size: 1.1rem;
+    word-spacing: 0.5rem;
+    line-height: 1.6rem;
+    text-align: justify;
+    color: #626262;
+}
+
+.underline_heading_page_sec{
+    height: 5px;
+    background-color: #171717;
+    margin-bottom: 2.5rem;
+    width: 65%;
+    align-self: flex-end;
+}
+
+.TeamInfoSection{
+    height: 50vh;
+}
+
+.TeamMemberV1{
+    margin: 1rem 0;
+}
+
+.TeamMemberV1, .team_profile_details, .team_profile_area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.team_profile_details{
+    margin-top: 0.4rem;
+}
+
+.team_profile_area{
+    background-color: #F2F2F2;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 10%;
+}
+
+.team_members_info{
+    display: flex;
+    justify-content: space-around;
+}
+
+.team_profile_img_frame{
+    background: linear-gradient(to right, #FF5F3F, #FDA600);
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.team_profile_img{
+    background-color: white;
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+}
+
+.team_profile_img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.team_profile_name{
+    font-size: 1.1rem;
+    color: #171717;
+    margin-bottom: 0.1rem;
+}
+
+.team_profile_role{
+    font-size: 0.7rem;
+    color: #6E6E6E;
+    font-weight: 500;
+}
+
+/* --------------- Media Querry ------------- */
+
+@media only screen and (max-width: 1025px) {
+    .para{
+        margin: 0 2rem;
+    }
+    
+    .InfoPageSection{
+        padding: 3rem;
+    }
+
+    .page_heading{
+        font-size: 1.8rem;
+    }
+
+    .underline_heading_page_sec{
+        height: 4px;
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width: 769px) {
+    
+    .InfoPageSection{
+        height: 70vh;
+    }
+
+    .TeamInfoSection{
+        height: 25vh;
+    }
+
+    .team_profile_area{
+        width: 9.5rem;
+        height: 9.5rem;
+    }
+    
+    .team_profile_img_frame{
+        width: 5rem;
+        height: 5rem;
+    }
+    
+    .team_profile_name{
+        font-size: 0.8rem;
+    }
+    
+    .team_profile_role{
+        font-size: 0.45rem;
+    }
+}
+
+@media only screen and (max-width: 426px) {
+    
+}

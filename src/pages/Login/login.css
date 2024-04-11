@@ -1,0 +1,160 @@
+.Login{
+    height: 83vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login_box{
+    padding: 0.3rem;
+    background-color: #F0F0F0;
+    height: 80%;
+    width: 65%;
+    border-radius: 1.2rem;
+    display: flex;
+    align-items: center;
+}
+
+.box_img{
+    border-radius: 1rem;
+    height: 100%;
+    width: 55%;
+    margin: 0 0.3rem 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box_img img{
+    width: 80%;
+}
+
+.login_form{
+    background: white;
+    height: 100%;
+    width: 45%;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login_form h2{
+    margin: 3.5rem 0 1.2rem 0;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.input_email, .input_pass{
+    width: 70%;
+    height: 6vh;
+    background-color: #F0F0F0;
+    border: none;
+    outline: none;
+    padding: 0.1rem 1.3rem;
+    margin: 0.6rem;
+    border-radius: 2rem;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.submit{
+    border-radius: 2rem;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: white;
+    border: none;
+    outline: none;
+    width: 43.5%;
+    height: 3rem;
+    background: linear-gradient(to right, #FF5F3F, #FDA600);
+    margin: 1.8rem 0;
+    cursor: pointer;
+}
+.submit:hover{
+    background: linear-gradient(to right, #ef593b, #f09c00);
+}
+
+.dont_have_acc{
+    display: flex;
+    align-items: center;
+}
+
+.dont_have_acc h6, .dont_have_acc a{
+    font-weight: 400;
+    font-size: 0.9rem;
+    margin: 0 0.2rem;
+}
+
+.dont_have_acc a{
+    text-decoration: none;
+    color: #FF5F3F;
+}
+
+/* --------------- Media Querry ------------- */
+
+@media only screen and (max-width: 1025px) {
+    .login_form h2{
+        margin: 3.2rem 0 1.1rem 0;
+        font-size: 2.5rem;
+    }
+
+    .input_email, .input_pass{
+        width: 70%;
+        height: 6vh;
+        font-size: 0.9rem;
+        margin: 0.6rem;
+    }
+
+    .submit{
+        height: 2.8rem;
+        width: 50%;
+        font-size: 1rem;
+        margin: 1.6rem 0;
+    }
+
+    .login_box{
+        width: 70%;
+    }
+
+    .dont_have_acc h6, .dont_have_acc a{
+        font-weight: 400;
+        font-size: 0.75rem;
+        margin: 0 0.2rem;
+    }
+}
+
+@media only screen and (max-width: 769px) {
+    .Login{
+        height: 90vh;
+    }
+
+    .login_box{
+        height: 40%;
+        width: 80%;
+    }
+
+    .login_form h2{
+        margin: 3rem 0 1rem 0;
+        font-size: 2rem;
+    }
+
+    .input_email, .input_pass{
+        width: 65%;
+        height: 3.5vh;
+        font-size: 0.8rem;
+        margin: 0.4rem;
+    }
+
+    .submit{
+        height: 2.8rem;
+        width: 50%;
+        font-size: 1rem;
+        margin: 1.6rem 0;
+    }
+}
+
+@media only screen and (max-width: 426px) {
+    
+}

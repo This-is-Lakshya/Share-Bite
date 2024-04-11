@@ -1,0 +1,142 @@
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5rem;
+    background-color: white;
+}
+
+.nav_logo-links{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo_box{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    margin: 0 1.3rem;
+    width: 14rem;
+}
+
+.nav_links a{
+    margin: 0 2rem;
+    text-decoration: none;
+    font-weight: 600;
+    color: #171717;
+    font-size: 1.1rem;
+}
+
+.nav_links a.active_link{
+    color: #FF5F3F;
+}
+
+.login-register_options{
+    display: flex;
+    border-radius: 1.5vmax;
+    border: 3px solid #FF5F3F;
+    align-items: center;
+    margin-right: 1.3rem;
+}
+
+.login-register_options a{
+    margin: 0 1.5rem;
+    text-decoration: none;
+    color: #FF5F3F;
+    font-weight: 600;
+}
+
+.register_btn{
+    height: 2.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #FF5F3F, #FDA600);
+    border-radius: 1.1vmax;
+}
+
+.register_btn a{
+    color: white;
+}
+
+
+/* --------------- Media Querry ------------- */
+
+@media only screen and (max-width: 1025px) {
+    .navBar{
+        padding: 1.8rem 1.5rem;
+    }
+
+    .logo{
+        width: 10rem;
+    }
+
+    .nav_links a{
+        margin: 0 1.5rem;
+        font-size: 1rem;
+    }
+
+    .login-register_options{
+        margin: 0 1.1rem;
+        border-radius: 1.2rem;
+    }
+
+    .register_btn{
+        border-radius: 1rem;
+        height: 2.1rem;
+        
+    }
+
+    .register_btn a{
+        margin: 0 1.3rem;
+    }
+
+    .login-register_options .login_btn{
+        margin: 0 1.3rem;
+    }
+}
+
+@media only screen and (max-width: 769px) {
+    .navBar{
+        padding: 1.5rem 0.8rem;
+    }
+
+    .logo{
+        width: 8rem;
+    }
+
+    .nav_links a{
+        margin: 0 1.2rem;
+        font-size: 0.9rem;
+    }
+
+    .login-register_options{
+        margin: 0 0.9rem;
+    }
+
+    .login-register_options a{
+        margin: 0 1rem;
+        font-size: 0.9rem
+    }
+
+    .register_btn{
+        border-radius: 1rem;
+        height: 1.8rem;
+    }
+
+    .register_btn a{
+        margin: 0 1rem;
+    }
+
+    .login-register_options .login_btn{
+        margin: 0 1rem;
+    }
+}
+
+@media only screen and (max-width: 426px) {
+
+}
