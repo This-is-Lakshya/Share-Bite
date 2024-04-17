@@ -9,6 +9,7 @@ import Register from './pages/Register/Register.jsx';
 import RegisterAsInd from './pages/Register/RegisterAsInd.jsx';
 import RegisterAsNGO from './pages/Register/RegisterAsNGO.jsx';
 import './App.css';
+import RequestGenForm from './pages/RequestGeneration/RequestGenForm.jsx';
 
 function App() {
   return (
@@ -17,6 +18,9 @@ function App() {
         <NavBar />
         <Routes>
           <Route path={'/'} element={<Home />} />
+
+          <Route path={'/requestGeneration'} element={<RequestGenForm />} />
+
           <Route path={'/about'} element={<About />} />
           <Route path={'/contact'} element={<Contact />} />
 

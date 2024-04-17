@@ -1,0 +1,37 @@
+.RequestGenForm{
+    height: 83vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.outer_border_requestBox{
+    border-radius: 1.2rem;
+    height: 32rem;
+    width: 62rem;
+    background-color: #F0F0F0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.requestGenFormBox{
+    background-color: white;
+    height: 31.4rem;
+    width: 61.4rem;
+    border-radius: 1rem;
+}
+
+.input_details{
+    width: 70%;
+    height: 6vh;
+    background-color: #F0F0F0;
+    border: none;
+    outline: none;
+    padding: 0.1rem 1.3rem;
+    margin: 0.6rem 0;
+    border-radius: 2rem;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 1rem;
+}
