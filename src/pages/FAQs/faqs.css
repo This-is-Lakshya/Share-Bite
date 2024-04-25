@@ -1,0 +1,48 @@
+.h6_heading{
+    font-family: 'Montserrat';
+    color: rgb(159, 159, 159);
+}
+.main_heading{
+    font-weight: 600;
+}
+
+.FAQs{
+    margin-top: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.requestGenFormBox{
+    background-color: #F0F0F0;
+    height: 32rem;
+    width: 62rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.question_faq{
+    width: 100%;
+    height: 5rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0.8rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.question_faq img{
+    margin: 1.5rem;
+}
+
+.question_faq p{
+    font-weight: 600;
+}
+
+.down_arr img{
+    width: 1.5rem;
+    height: 1.5rem;
+}

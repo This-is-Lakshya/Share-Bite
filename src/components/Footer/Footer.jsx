@@ -47,7 +47,7 @@ const Footer = () => {
               </div>
               
                 <div className="footer_links">
-                  <NavLink to={''} >FAQs</NavLink>
+                  <NavLink to={'/FAQs'} >FAQs</NavLink>
                   <NavLink to={''} >Contact Us</NavLink>
                 </div>
               </div>
@@ -71,7 +71,7 @@ const Footer = () => {
 
         </div>
         <div className='footer_underline'></div>
-        <h4>©Copyright. All rights reserved</h4>
+        <h5>©Copyright. All rights reserved</h5>
     </div>
   )
 }

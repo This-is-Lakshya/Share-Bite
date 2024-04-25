@@ -11,6 +11,7 @@
     font-size: 2rem;
     margin-bottom: 0.8rem;
     color: #171717;
+    font-weight: 600;
 }
 
 .heading_section{
@@ -37,7 +38,7 @@
 }
 
 .TeamInfoSection{
-    height: 50vh;
+    height: 65vh;
 }
 
 .TeamMemberV1{
@@ -91,6 +92,7 @@
 }
 
 .team_profile_name{
+    font-weight: 700;
     font-size: 1.1rem;
     color: #171717;
     margin-bottom: 0.1rem;

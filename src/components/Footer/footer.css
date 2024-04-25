@@ -16,7 +16,7 @@
 .footer_underline{
     background-color: #D2D2D2;
     width: 70%;
-    height: 1px;
+    height: 0.5px;
 }
 
 .footer_sections{
@@ -59,10 +59,10 @@
     width: 50%;
 }
 
-.footer h4{
+.footer h5{
     font-weight: 300;
     color: #D2D2D2;
-    margin: 4.5rem;
+    margin-top: 4.5rem;
 }
 
 .social_icon{
@@ -81,7 +81,7 @@
 
 /* --------------- Media Querry ------------- */
 
-@media only screen and (max-width: 1441px){
+/* @media only screen and (max-width: 1441px){
     .footer{
         height: 70vh;
     }
@@ -173,4 +173,4 @@
 
 @media only screen and (max-width: 426px) {
 
-}
+} */

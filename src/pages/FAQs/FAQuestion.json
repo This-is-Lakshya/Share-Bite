@@ -1,0 +1,17 @@
+[
+    {
+        "id" : 1,
+        "question" : "What is ShareBite ?",
+        "answer" : "A JOKE!"
+    },
+    {
+        "id" : 2,
+        "question" : "How could I donate ?",
+        "answer" : "A JOKE!"
+    },
+    {
+        "id" : 3,
+        "question" : "Can I be sued if someone gets sick from food I donate ?",
+        "answer" : "A JOKE!"
+    }
+]

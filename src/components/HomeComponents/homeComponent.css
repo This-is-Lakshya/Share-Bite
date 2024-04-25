@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
+.LandingPage{
+    width: 100%;
+    height: 83vh;
+    padding: 2rem 8rem;
+}
+
+.LandingPage_ContentAre{
+    width: 100%;
+    height: 100%;
+}
+
+.top_content{
+    width: 100%;
+    height: 65%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+.leftSide_content h1{
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 600;
+    font-size: 5.5rem;
+    letter-spacing: 5px;
+}
+
+.leftSide_content p{
+    width: 39rem;
+    text-align: justify;
+    font-weight: 500;
+    color: #595959;
+}
+
+.rightSide_img{
+    height: 100%;
+}
+
+.rightSide_img img{
+    height: 100%;
+}
+
+.bottom_content{
+    width: 100%;
+    height: 35%;
+    padding: 2.5rem 1rem 1rem 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.features_card{
+    width: 32%;
+    height: 100%;
+}
+
+.feature_heading{
+    display: flex;
+    margin-bottom: 0.4rem
+}
+
+.feature_heading img{
+    width: 2rem;
+    height: 2rem;
+    margin-right: 0.7rem;
+}
+.feature_heading h4{
+    font-size: 1.3rem;
+    margin-top: 0.3rem;
+    font-family: 'Montserrat';
+    font-weight: 600;
+}
+
+.features_card p{
+    text-align: justify;
+    font-weight: 500;
+    color: #595959;
+    font-size: 0.9rem;
+}
+
+
+.foodDonate_btn{
+    align-self: center;
+    border-radius: 0 2rem 2rem 0;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: white;
+    border: none;
+    outline: none;
+    width: 12rem;
+    height: 3rem;
+    background: linear-gradient(to right, #FF5F3F, #FDA600);
+    margin: 1.2rem 0;
+    cursor: pointer;
+}
+.foodDonate_btn:hover{
+    background: linear-gradient(to right, #ef593b, #f09c00);
+}
+

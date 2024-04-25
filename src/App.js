@@ -8,8 +8,9 @@ import Login from './pages/Login/Login.jsx';
 import Register from './pages/Register/Register.jsx';
 import RegisterAsInd from './pages/Register/RegisterAsInd.jsx';
 import RegisterAsNGO from './pages/Register/RegisterAsNGO.jsx';
-import './App.css';
 import RequestGenForm from './pages/RequestGeneration/RequestGenForm.jsx';
+import FAQs from './pages/FAQs/FAQs.jsx';
+import './App.css';
 
 function App() {
   return (
@@ -29,6 +30,9 @@ function App() {
           <Route path={'/register'} element={<Register />} />
           <Route path={'/registerAsIndividual'} element={<RegisterAsInd />} />
           <Route path={'/registerAsNGO'} element={<RegisterAsNGO />} />
+
+          <Route path={'/FAQs'} element={<FAQs />} />
+
         </Routes>
         <Footer />
       </div>
