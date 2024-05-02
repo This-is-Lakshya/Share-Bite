@@ -26,8 +26,10 @@
     align-items: center;
 }
 
-.requestGenFormBox h1{
+.inner_box_registerReq h1{
     font-weight: 600;
+    margin-bottom: 1rem;
+    margin-top: -0.5rem;
 }
 
 .requestForm{
@@ -54,20 +56,31 @@
     color: #6E6E6E;
 }
 
-.submit{
-    align-self: center;
-    border-radius: 2rem;
-    font-weight: 600;
-    font-size: 1.1rem;
-    color: white;
-    border: none;
-    outline: none;
-    width: 15rem;
-    height: 3rem;
-    background: linear-gradient(to right, #FF5F3F, #FDA600);
-    margin: 1.8rem 0;
-    cursor: pointer;
+.RegisterAsReq{
+    height: 83vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.submit:hover{
-    background: linear-gradient(to right, #ef593b, #f09c00);
+
+.outer_border_registerReq{
+    height: 32rem;
+    width: 62rem;
+    background-color: #F0F0F0;
+    border-radius: 1.2rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner_box_registerReq{
+    background-color: white;
+    height: 31.4rem;
+    width: 61.4rem;
+    border-radius: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

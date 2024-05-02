@@ -12,6 +12,23 @@ import RequestGenForm from './pages/RequestGeneration/RequestGenForm.jsx';
 import FAQs from './pages/FAQs/FAQs.jsx';
 import './App.css';
 
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+
+const firebaseConfig = {
+  apiKey: "AIzaSyCx5bKP1xej96W7ayf0CUGm0ognsCtZFI8",
+  authDomain: "sharebite-4c56e.firebaseapp.com",
+  databaseURL: "https://sharebite-4c56e-default-rtdb.firebaseio.com",
+  projectId: "sharebite-4c56e",
+  storageBucket: "sharebite-4c56e.appspot.com",
+  messagingSenderId: "4976226832",
+  appId: "1:4976226832:web:729866a1c23c7b70ea1095",
+  measurementId: "G-0T3641WZ74"
+};
+
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
+
 function App() {
   return (
     <BrowserRouter>

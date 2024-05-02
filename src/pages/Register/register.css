@@ -76,10 +76,12 @@
 }
 
 .or_bisection{
+    margin-top: 0.2rem;
+    margin-bottom: -0.3rem;
     width: 75%;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
 }
 
 .or_bisection p{
@@ -90,7 +92,8 @@
     background-color: #6E6E6E;
     height: 0.5px;
     width: 30%;
-    margin: 0 0.3rem;
+    margin: 0.3rem;
+    margin-bottom: 1rem;
 }
 
 
@@ -155,4 +158,69 @@
     font-family: 'Montserrat';
     font-weight: 500;
     font-size: 1rem;
+}
+
+
+/* ----------------------------- Register as NGO ------------------------------ */
+
+.RegisterAsNGO{
+    height: 150vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.outer_border_registerNGO{
+    height: 65rem;
+    width: 62rem;
+    background-color: #F0F0F0;
+    border-radius: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner_box_registerNGO{
+    background-color: white;
+    height: 64.4rem;
+    width: 61.4rem;
+    border-radius: 1rem;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.label_regNGO{
+    font-family: 'Montserrat';
+    margin-left: 1rem;
+}
+
+.regNGOform{
+    display: flex;
+    flex-direction: column;
+}
+
+.submit{
+    align-self: center;
+    border-radius: 2rem;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: white;
+    border: none;
+    outline: none;
+    width: 15rem;
+    height: 3rem;
+    background: linear-gradient(to right, #FF5F3F, #FDA600);
+    margin: 1.8rem 0;
+    cursor: pointer;
+}
+.submit:hover{
+    background: linear-gradient(to right, #ef593b, #f09c00);
+}
+
+.inner_box_registerNGO h1{
+    align-self: center;
+    margin: 0rem 0 3rem 0;
+    font-size: 3rem;
+    font-weight: 600;
 }

@@ -18,6 +18,7 @@
     justify-content: space-between;
     align-items: center;
     padding-bottom: 1rem;
+
 }
 
 .leftSide_content h1{
@@ -45,13 +46,13 @@
 .bottom_content{
     width: 100%;
     height: 35%;
-    padding: 2.5rem 1rem 1rem 1rem;
+    padding: 2.8rem 0 1rem 0;
     display: flex;
     justify-content: space-between;
 }
 
 .features_card{
-    width: 32%;
+    width: 31%;
     height: 100%;
 }
 
@@ -73,6 +74,7 @@
 }
 
 .features_card p{
+    font-family: 'Montserrat'; 
     text-align: justify;
     font-weight: 500;
     color: #595959;
@@ -81,8 +83,7 @@
 
 
 .foodDonate_btn{
-    align-self: center;
-    border-radius: 0 2rem 2rem 0;
+    border-radius: 0 2rem 0 2rem;
     font-weight: 600;
     font-size: 1.1rem;
     color: white;
@@ -91,10 +92,85 @@
     width: 12rem;
     height: 3rem;
     background: linear-gradient(to right, #FF5F3F, #FDA600);
-    margin: 1.2rem 0;
+    margin: 1rem 0;
     cursor: pointer;
 }
 .foodDonate_btn:hover{
     background: linear-gradient(to right, #ef593b, #f09c00);
 }
 
+
+
+/* -------------------- Our Impact ----------------- */
+
+.OurImpact{
+    width: 100%;
+    /* height: 60vh; */
+    background-color: #f1f1f1;
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /* remove it later -------------------- */
+    margin-bottom: 0.5rem; 
+}
+
+.ourImpactH1{
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 1.8rem;
+    margin-bottom: 4rem;
+}
+
+.impactInfo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.impactInfo div h1{
+    font-size: 4rem;
+    font-weight: 800;
+    margin-bottom: 0.8rem;
+    color: #FF6E32;
+}
+
+.impactInfo div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.impactInfo div h4{
+    font-weight: 600;
+    color: #7b7b7b;
+    font-family: 'Montserrat';
+}
+
+.impactInfo div p{
+    padding: 0 3rem;
+    color: #7b7b7b;
+    text-align: center;
+}
+
+
+/* ------------------------- Donate Section ----------------------- */
+
+.DonationCard{
+    height: 75vh;
+    width: 100%;
+    background-image: url('../../assets/donateBanner.png');
+    background-color: black;
+    padding: 5rem;
+
+    /* remove it later -------------------- */
+    margin-bottom: 0.5rem;
+}
+
+.DonationCard h1{
+    font-family: 'Montserrat';
+    color: white;
+    font-weight: 800;
+    font-size: 4rem;
+}

@@ -1,6 +1,7 @@
 import React, { useRef, useState } from 'react';
 import contactUs from '../../assets/contact_us.svg';
 import emailjs from 'emailjs-com';
+import Swal from 'sweetalert2';
 import './contact.css';
 
 const Contact = () => {
@@ -46,9 +47,25 @@ const Contact = () => {
         emailRef.current.value = '';
         phoneRef.current.value = '';
         messageRef.current.value = '';
+
+        // sweetalert success
+        Swal.fire({
+          title: "Submited!",
+          text: "You response is submitted",
+          icon: "success"
+        });
+
       })
       .catch((error) => {
         console.error('Email send failed:', error);
+
+        // sweetalert error
+        Swal.fire({
+          title: 'Error!',
+          text: 'Failed to submit',
+          icon: 'error',
+          confirmButtonText: 'Cool'
+        })
       });
   };
 
@@ -60,8 +77,6 @@ const Contact = () => {
         </div>
         <div className='contact_form'>
           <h2>Contact</h2>
-          {error && <p>Please fill all fields.</p>}
-          {sent && <p>Email sent successfully!</p>}
           <input
             ref={nameRef}
             className='input_name'

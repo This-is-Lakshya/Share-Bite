@@ -34,7 +34,7 @@ const Register = () => {
           <button onClick={clickRegisterAsNGO} className="register_ngo_btn">Register (NGOs)</button>
           <div className='dont_have_acc'>
             <h6>Already have an account?</h6>
-            <NavLink to={''} >Login</NavLink>
+            <NavLink to={'/login'} >Login</NavLink>
           </div>
         </div>
       </div>
