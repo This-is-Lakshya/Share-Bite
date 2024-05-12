@@ -20,23 +20,24 @@ const Footer = () => {
                 </div>
 
                 <div className="footer_links">
-                  <NavLink to={''} >About Us</NavLink>
-                  <NavLink to={''} >Privacy Policy</NavLink>
+                  <NavLink to={'/about'} >About Us</NavLink>
+                  <NavLink to={'/privacyPolicy'} >Privacy Policy</NavLink>
                 </div>
               </div>
 
               <div className="quick_links">
 
-              <div className='footer_heading'>
-                <h3>Quick Links</h3>
-                <div className="heading_underline"></div>
-              </div>
+                <div className='footer_heading'>
+                  <h3>Quick Links</h3>
+                  <div className="heading_underline"></div>
+                </div>
 
                 <div className="footer_links">
-                  <NavLink to={''} >Home</NavLink>
-                  <NavLink to={''} >Login</NavLink>
-                  <NavLink to={''} >Register (NGOs)</NavLink>
-                </div>
+                  <NavLink to={'/'} >Home</NavLink>
+                  <NavLink to={'/login'} >Login</NavLink>
+                  <NavLink to={'/registerAsNGO'} >Register (NGOs)</NavLink>
+                </div>  
+
               </div>
               
               <div className="get_help">
@@ -48,9 +49,9 @@ const Footer = () => {
               
                 <div className="footer_links">
                   <NavLink to={'/FAQs'} >FAQs</NavLink>
-                  <NavLink to={''} >Contact Us</NavLink>
+                  <NavLink to={'/contact'} >Contact Us</NavLink>
                 </div>
-              </div>
+              </div> 
             </div>
 
             <div className='social_links'>

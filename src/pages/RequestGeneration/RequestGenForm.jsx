@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { getDatabase, ref, push } from 'firebase/database';
-import Swal from 'sweetalert2'
+import Swal from 'sweetalert2';
+import { NavLink } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import './requestGenForm.css';
@@ -161,7 +162,7 @@ const RequestGenForm = () => {
                   onChange={handleTermsAcceptedChange}
                 />
                 <label className='tAndc_label' htmlFor=''>
-                  I accept the terms & conditions
+                  I accept the <NavLink to={'/termsAndConditions'}>terms & conditions</NavLink>
                 </label>
               </div>
 

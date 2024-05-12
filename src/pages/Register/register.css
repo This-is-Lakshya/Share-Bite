@@ -224,3 +224,49 @@
     font-size: 3rem;
     font-weight: 600;
 }
+
+/* --------------------=== Approved Registration NGOs ===--------------------- */
+
+.ApprovedRegistrationNGO{
+    width: 100%;
+    height: 83vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.outer_border_arngo{
+    width: 27rem;
+    height: 30rem;
+    background-color: #F0F0F0;
+    border-radius: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.createAccountBox{
+    width: 26.4rem;
+    height: 29.4rem;
+    background-color: white;
+    border-radius: 1rem;
+}
+
+.createAccountBox .heading_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.createAccountBox h1{
+    margin: 3rem 0 1.2rem 0;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.createAccountBox form{
+    display: flex;
+    flex-direction: column;
+}
+
+/* --------------------==================================--------------------- */

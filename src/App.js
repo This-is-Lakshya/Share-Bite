@@ -14,6 +14,9 @@ import './App.css';
 
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
+import PrivacyPolicy from './pages/Documentations/PrivacyPolicy.jsx';
+import ApprovedRegistrationNGO from './pages/Register/ApprovedRegistrationNGO.jsx';
+import TermsAndConditions from './pages/Documentations/TermsAndConditions.jsx';
 
 const firebaseConfig = {
   apiKey: "AIzaSyCx5bKP1xej96W7ayf0CUGm0ognsCtZFI8",
@@ -47,8 +50,11 @@ function App() {
           <Route path={'/register'} element={<Register />} />
           <Route path={'/registerAsIndividual'} element={<RegisterAsInd />} />
           <Route path={'/registerAsNGO'} element={<RegisterAsNGO />} />
+          <Route path={'/approvedRegistrationNGOs'} element={<ApprovedRegistrationNGO />} />
 
           <Route path={'/FAQs'} element={<FAQs />} />
+          <Route path={'/privacyPolicy'} element={<PrivacyPolicy />} />
+          <Route path={'/termsAndConditions'} element={<TermsAndConditions />} />
 
         </Routes>
         <Footer />
